@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robotics Engineer</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+        
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar-villian.jpg" alt="my-avatar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Idrees, M.">Idrees, M.</h1>
+
+          <p class="title">Robotics Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Expand</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/muhammad-idrees-16b54a168/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/idreeskhaan" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+
+          <p>
+            Robotics Engineer with expertise in electromechanical modeling, SLAM, advanced path planning, ROS, control systems design, automation, and
+            machine learning. Proficient in CAD modeling, adept at translating designs into functional prototypes with precision and efficiency. Demonstrated
+            track record of developing innovative solutions in automation, ensuring optimal performance and resource efficiency. Skilled in writing flexible
+            code tailored for solving complex problems and integrating autonomous systems.
+          </p>
+            
+          <p>
+            I achieved a significant milestone by developing an automated robotic system for industrial painting,
+            currently undergoing patent filing, which reduced energy wastage by 51% and streamlined
+            process time by 33%. My hands-on experience extends to working with ROS and Gazebo, where
+            I honed my skills by crafting obstacle avoidance algorithm for a TurtleBot simulator.
+            Moreover, I successfully desgined and simulated a bipedal walking robot in SIMULINK.
+            I boast a specialization in Deep Learning and Data Science and have certifications in
+            Robot Operating System. See the <b>PORTFOLIO SECTION</b> for more details!
+          </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Publications</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <p class="service-item-text">
+                  Gabbar, H.A.; Idrees, M. ARSIP: Automated Robotic System for Industrial Painting.
+                   Technologies 2024, 12, 27. https://doi.org/10.3390/technologies12020027
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <p class="service-item-text">
+                  Idrees, M.; Gabbar, H.A. A hybrid optimization scheme for efficient trajectory planning of a spray-painting robot.
+                   In Proceedings of the 3rd International Conference on Robotics, Automation, and Artificial Intelligence (RAAI),
+                    Singapore, 14–16 December 2023
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/electromechanical.PNG" alt="Electromechanical Modelling" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Electromechanical Modelling</h4>
+
+                <p class="service-item-text">
+                  Design and simulate any mechanical or electrical system in MATLAB & SIMULINK.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/robotdynamics.PNG" alt="Robot Dynamics" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Robot Dynamics </h4>
+
+                <p class="service-item-text">
+                  Solve Kinematics and dynamics of serial-link and paraller manipulators in Python and MATLAB.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/slam.PNG" alt="SLAM" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">SLAM</h4>
+
+                <p class="service-item-text">
+                  Proficient in SLAM algorithms like GMapping, Cartographer, SLAM Toolbox, Hector SLAM.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ros2.png" alt="ROS" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ROS</h4>
+
+                <p class="service-item-text">
+                  Deep understanding of ROS1 and ROS2 topics, services, actions, launch, rviz, gazebo, nav2 etc.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/controlsystems.PNG" alt="Control Systems" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Control Systems</h4>
+
+                <p class="service-item-text">
+                  Simulate Control Systems in MATLAB & SIMULINK.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/deeplearning.PNG" alt="Deep Learning" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Deep Learning</h4>
+
+                <p class="service-item-text">
+                  Create custom Deep Neural Networks in Python tensorflow.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+      
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MSC IN ELECTRICAL AND COMPUTER ENGINEERING, ONTARIO TECH</h4>
+
+              <span>Jan 2022 — Jan 2024</span>
+
+              <p class="timeline-text"> 
+                GPA: 4.20/4.30, Thesis: https://hdl.handle.net/10155/1718, Courses: Power Electronics,
+                Manipulator and Mechanism Design, Machine Learning and Data Mining, Intelligent Systems
+                Applications, Real Time Data Analytics IOT, Adaptive Control.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BS IN MECHANICAL ENGINEERING, GHULAM ISHAQ KHAN INST OF ENG SCIENCES</h4>
+
+              <span>Aug 2016 — Sep 2020</span>
+
+              <p class="timeline-text">
+                GPA: 3.91/4.0, Capstone: Design and Fabrication of a Bipedal Robot. Courses: Calculus, Physics,
+                Dynamics, Control Systems, Vibrations, Robotics, Digital Logic Design, Microprocessor Systems,
+                Design of Machines, Mechanism Design, Finite Element Methods, Stress Analysis,
+                Thermodynamics, Heat Transfer, Project Management, Total Quality Management.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">NON-DEGREE CULTURAL EXCHANGE, UNI OF MISSOURI COLUMBIA, USA</h4>
+
+              <span>Jan 2019 — May 2019</span>
+
+              <p class="timeline-text">
+                A Cultural Exchange Semester sponsored by IREX and UGRAD. Courses: American History, College
+                Seminar, Internship and Career Exploration. Presented my country and did community service
+                work in a Food Bank
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">GRADUATE RESEARCH ASSISTANT, ONTARIO TECH</h4>
+
+              <span>Jan 2022 — Jan 2024</span>
+
+              <p class="timeline-text">
+              <ol class="timeline-text">
+                <li>Designed a 3D scanner and Calibrator to register point clouds of complex surfaces using an RGBD sensor with 95% capture accuracy.</li>
+                <li>Developed a novel hybrid trajectory optimization algorithm and programmed it in Python reducing energy and process time by 51% and 33%.</li>
+                <li>Developed a ROS and Python based software framework with an integrated web-based HMI/GUI for user control.</li>
+                <li>Designed the integrated system in SolidWorks, simulated it in Python, tested and debugged the prototype in real-time.</li>
+                <li>Analysed industrial robot post-processors in RoboDK to convert the trajectory to robot programs.</li>
+                <li>Paid industry visits and demonstrated the system to see how it can be extended to industrial robots like FANUC, KUKA, ABB</li>
+              </p>
+            </ol>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Engineering Intern Controls & Instrumentation, GIKI</h4>
+
+              <span>June 2019 — Aug 2019</span>
+
+              <p class="timeline-text">
+
+                <ol class="timeline-text">
+                  <li>Designed a low-cost control system for early failure detection of a power transformer using GSM, GNSS,
+                   Arduino, Thermocouple & SONAR.</li>
+                  <li>Designed a low-cost 3 phase PWM inverter for a force-controlled linear actuator & simulated it in Proteus</li>
+    
+                </ol>
+              
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student Ambassador, U.S. Department of State</h4>
+
+              <span>Jan 2019 — May 2019</span>
+
+              <p class="timeline-text">
+
+                <ol class="timeline-text">
+                  <li>Presented my country in Missouri to bridge cultural gaps.</li>
+                  <li>Participated in volunteer work to help the local community, wrote
+                    personal blogs, and attended festivals to celebrate cultural diversity.</li>
+                </ol>
+              
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Robotics & ROS</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SLAM</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Control Systems</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MATLAB SIMULINK</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Robotics</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Controls</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>ML</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Robotics</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Controls</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>ML</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="robotics">
+              <a href="https://github.com/idreeskhaan/irsip" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ARSIP.PNG" alt="ARSIP" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ARSIP: Automated Robotic System for Industrial Painting</h3>
+
+                <p class="project-category">Robotics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="robotics">
+              <a href="https://github.com/idreeskhaan/walking-robot-SIMULINK" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bipedal.PNG" alt="Bipedal" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Design and fabrication of a bipedal robot</h3>
+
+                <p class="project-category">Robotics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="controls">
+              <a href="https://github.com/idreeskhaan/nn-adaptive-controller" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/NNbasedAdpativeController.PNG" alt="NN based Adpative Controller" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">A neural network based adaptive controller for end-effector
+                   tracking of redundant manipulators</h3>
+
+                <p class="project-category">Controls</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="ml">
+              <a href="https://github.com/idreeskhaan/agitation-detection-NN">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/agitationDetection.PNG" alt="Agitation Detection" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">An agitation detection system based on survelliance
+                  videos for people suffering from dementia</h3>
+
+                <p class="project-category">ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="controls">
+              <a href="https://github.com/idreeskhaan/modified-theoJansen-mechanism" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ModifiedTheoJansen.PNG" alt="Modified Theo-Jansen Mechanism" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Design and Analysis of a Modified Theo-Jansen Mechanism
+                   for Walking purposes</h3>
+
+                <p class="project-category">Controls</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="controls">
+              <a href="https://github.com/idreeskhaan/inverted-pendulum-FIS" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/FLC-invertedPendulum.PNG" alt="IP using FIS" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fuzzy Logic Controller for Inverted Pendulum Stability
+                </h3>
+
+                <p class="project-category">Controls</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ml">
+              <a href="https://github.com/idreeskhaan/printed-digit-recognition" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/handDigitRecognition.PNG" alt="Printed Digit Recognition" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Printed Digits Recognition using ANN and CNN
+                </h3>
+
+                <p class="project-category">ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ml">
+              <a href="https://github.com/idreeskhaan/nqueen-genetic-algorithm" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/nQueen.PNG" alt="N queen solver using GA" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Solving 8-Queen Problem using Genetic Algorithm.
+                </h3>
+
+                <p class="project-category">ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ml">
+              <a href="https://github.com/idreeskhaan/spam-email-classifier" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/spamEmailClassifier.PNG" alt="Spam email classifier" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Spam Email Classifier using Support Vector Machines
+                </h3>
+
+                <p class="project-category">ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ml">
+              <a href="https://github.com/idreeskhaan/image-compression-Kmeans" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/imageCompression.PNG" alt="image compression using K-Means" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Image Compression using K-Means Clustering
+                </h3>
+
+                <p class="project-category">ML</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.mdpi.com/2227-7080/12/2/27" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/MDPI.PNG" alt="MDPI 2024" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Automated Robotic Systems</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 10, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">MDPI Technologies 2024</h3>
+
+                  <p class="blog-text">
+                    Paper accepted in Technologies Journal titled
+                     "ARSIP: Automated Robotic System for Industrial Painting"
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="http://raai.net/2023.html" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/RAAI2023.PNG" alt="RAAI 2023" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Robot Trajectory Planning</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Dec 15, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Robotics, Automation, and Artificial Intelligence (RAAI) Conference in 2023</h3>
+
+                  <p class="blog-text">
+                    Presented my paper titled "A hybrid optimization scheme for efficient trajectory planning of a spray-painting robot"
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://hossamgaber.com/wp-content/uploads/2023/09/Workshop-on-Smart-Scan-2023-2.pdf">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/SMARTSCAN.PNG" alt="SMART SCAN" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">3D scanning</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Workshop on Smart Scan</h3>
+
+                  <p class="blog-text">
+                    Presented on Automated Surface Scanning for Industrial Applications using low-cost
+                    RGBD sensors.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/SPANS.PNG" alt="SPANS" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">3D scanning</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Aug, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Symposium on Plasma and Nuclear Systems (SPANS)</h3>
+
+                  <p class="blog-text">
+                    Delivered a presentation on Automated 3D scanning system for extracting surface geometries
+                    for application in safety critical areas in nuclear industries.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+  </main>
+  
+  <!-- #Custom JS -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicons JS-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
